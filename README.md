@@ -27,16 +27,14 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-<blockquote class="imgur-embed-pub" lang="en" data-id="QfdtVDq"><a href="//imgur.com/QfdtVDq">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
-
-<img src='https://imgur.com/QfdtVDq' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/QfdtVDq' title='Video Walkthrough' width='200' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+One challenge encountered while making this app was managing and understanding the terminal.
 
 ## Credits
 
