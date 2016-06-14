@@ -11,7 +11,7 @@ Time spent: 4 hours spent in total
 
 The following **required** functionality is complete:
 
-* [ ] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
+* [x] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
 
 The following **optional** features are implemented:
 * [ ] Settings page to change the default tip percentage.
@@ -34,7 +34,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-One challenge encountered while making this app was managing and understanding my git repository by using the git repository.
+One challenge encountered while making this app was managing and understanding my git repository by using the terminal.
 
 ## Credits
 
