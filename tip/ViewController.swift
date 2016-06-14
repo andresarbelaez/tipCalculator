@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     
     override func viewDidAppear(animated: Bool) {
         
-        let tipValue = defaults.doubleForKey("default_tip_percentage")
+//        let tipValue = defaults.doubleForKey("default_tip_percentage")
         
         self.tipControl.alpha = 0
         self.billField.alpha = 1
