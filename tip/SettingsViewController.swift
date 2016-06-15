@@ -10,6 +10,9 @@ import UIKit
 
 class SettingsViewController: UIViewController {
     
+    let defaults = NSUserDefaults.standardUserDefaults()
+    
+    
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
     

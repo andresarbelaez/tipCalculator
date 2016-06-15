@@ -9,6 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
+    
+    
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         
@@ -23,24 +27,17 @@ class ViewController: UIViewController {
     }
     
     override func viewDidAppear(animated: Bool) {
-        
-//        let tipValue = defaults.doubleForKey("default_tip_percentage")
+        super.viewDidAppear(animated)
+        billField.becomeFirstResponder()
+
         
         self.tipControl.alpha = 0
-        self.billField.alpha = 1
-        UIView.animateWithDuration(2.4, animations: {
+        self.tipLabel.alpha = 0
+        UIView.animateWithDuration(1.0, animations: {
             self.tipControl.alpha = 1
-            self.billField.alpha = 0
+            self.tipLabel.alpha = 1
         })
-        super.viewDidAppear(animated)
-    }
-    
-    override func viewWillDisappear(animated: Bool) {
-        super.viewWillDisappear(animated)
-    }
-    
-    override func viewDidDisappear(animated: Bool) {
-        super.viewDidDisappear(animated)
+        
     }
     
     
